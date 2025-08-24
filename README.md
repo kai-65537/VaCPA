@@ -19,5 +19,5 @@ VaCPA is in a very early stage of development; expect few features and many chan
 After installing all Python dependencies:
 
 ```
-pyinstaller src/main.py --name curvilinear --windowed --collect-all pyqtgraph --hidden-import pyqtgraph.opengl --icon icon.ico
+pyinstaller src/main.py --name curvilinear --windowed --collect-all pyqtgraph --hidden-import pyqtgraph.opengl --icon icon.ico --onefile
 ```
