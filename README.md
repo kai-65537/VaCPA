@@ -6,11 +6,11 @@ VaCPA is in a very early stage of development; expect few features and many chan
 
 ## Anricipated features
 
-- A bannar on this page
+- A banner on this page
 - Cross-platform builds
 - More beautiful UI
-- Ability to overlay image on guidelines
-- Ability to export and restore past parameters
+- Image overlays on guidelines
+- Exports and imports for parameters
 - And more...
 
 ## Build
