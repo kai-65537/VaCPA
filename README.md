@@ -4,8 +4,9 @@
 
 VaCPA is in a very early stage of development; expect few features and many changes.
 
-## Anricipated features
+## To Do List
 
+- Bundle independent of a Python install
 - A banner on this page
 - Cross-platform builds
 - More beautiful UI
