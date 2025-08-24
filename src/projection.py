@@ -72,7 +72,7 @@ def get_projection(x, y, z, r, projection):
             np.sin(phi_0) * np.cos(phi_val) * np.cos(lambda_val - lambda_0)
         )
         theta_az = np.arctan2(numerator, denominator)
-        scale = 0.5 * np.pi * r
-        return -rho * np.cos(theta_az) / scale, rho * np.sin(theta_az) / scale
+        scale = np.pi * r / 4
+        return rho * np.cos(theta_az) / scale, - rho * np.sin(theta_az) / scale
     else:
-        return x, y
+        return - x, - y
